@@ -50,7 +50,11 @@ DATA
    about 12000 grayscale images of the sun's active regions with equal contribution
    from all four categories (classes).
 
-* 
+*  The original dataset can be found here:
+
+         Boucheron, Laura; Vincent, Ty; Grajeda, Jeremy; Wuest, Ellery (2023). Active 
+         region magnetograms for solar flare prediction: Reduced resolution 
+         dataset [Dataset]. Dryad. https://doi.org/10.5061/dryad.jq2bvq898 
 
 #################################################################
 #################################################################
@@ -64,7 +68,7 @@ COPYING REPOSITORY
 *   Make sure you have git installed
 
 *   open ubuntu terminal and type:
-       git clone <https link>
+       git clone https://github.com/mzwphy/Weather_Model.git
 
 *   To run the model and make predictions, navigate to the <run> directory (folder)
     and type "python flarePredictions.py" 
